@@ -1,0 +1,12 @@
+external/
+.venv/
+.idea/
+.git/
+build/
+dist/
+bob_build*/
+__pycache__/
+**/__pycache__/
+*.pyc
+benchmark-results.json
+bots/**/*.pt

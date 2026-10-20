@@ -1,0 +1,17 @@
+Copyright (c) 2026 Rolv. Ripple for RLBot.
+
+Ripple-owned source code, model weights (including ONNX conversions),
+documentation, artwork and loadouts are licensed under Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+See LICENSE for the complete terms. Attribute Ripple to Rolv and identify
+modifications when sharing adapted material.
+
+This grant covers only rights held by Ripple's contributors. Third-party
+dependencies and resources retain their respective rights and licenses.
+The Rocket League arena collision meshes in src/collision_meshes are
+excluded from this grant; no ownership of those resources is claimed.
+
+Models, artwork and loadouts originate from the supplied Ripple-RLGymPack.
+Training-interface behavior follows Ripple's configuration/agent2.py,
+observation_builder2.py and action_parser2.py. Elementv5 and NectoFamily
+were consulted as RLBot packaging examples.

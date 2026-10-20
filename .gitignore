@@ -1,0 +1,14 @@
+external/
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+bob_build*/
+.idea/
+tools/*.graph.txt
+*.sqlite3
+*.sqlite3-journal
+bots/*/*-executable.bot.toml
+bots/**/*.pt
+*.json

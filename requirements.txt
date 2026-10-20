@@ -1,0 +1,7 @@
+# Bob's ONNX runtime and build dependencies. Torch is optional development-only.
+rlbot==2.0.0b56
+numpy==2.5.4
+RocketSim==2.2.1
+rlgym-compat==2.3.6
+onnxruntime==1.31.0
+pyinstaller==6.22.3

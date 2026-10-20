@@ -1,0 +1,29 @@
+[project]
+name = "ripple-rlbot"
+version = "0.1.0"
+description = "Ripple v1.1 and v1.0 for RLBot v5, with optional BCM-only inference"
+requires-python = ">=3.12"
+license = "CC-BY-NC-SA-4.0"
+license-files = ["LICENSE", "NOTICE"]
+dependencies = [
+    "rlbot==2.0.0b56",
+    "numpy==2.5.4",
+    "RocketSim==2.2.1",
+    "rlgym-compat==2.3.6",
+    "onnxruntime==1.31.0",
+]
+
+[project.optional-dependencies]
+torch = ["torch==2.14.1"]
+
+[dependency-groups]
+build = ["pyinstaller==6.22.3"]
+export = ["torch==2.14.1", "onnx==1.23.2", "onnxscript==0.7.2"]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }

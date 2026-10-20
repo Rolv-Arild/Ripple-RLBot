@@ -1,0 +1,7 @@
+[[config]]
+project_name = "Ripple"
+bot_configs = ["bots/v1.1/ripple-v1.1.bot.toml", "bots/v1.0/ripple-v1.0.bot.toml"]
+
+[config.builder_config]
+builder_type = "pyinstaller"
+entry_file = "bot.spec"

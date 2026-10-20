@@ -1,0 +1,20 @@
+#:schema https://rlbot.org/schemas/agent.json
+[settings]
+name = "Ripple v1.1"
+agent_id = "rolv/ripple/1.1"
+run_command = "uv run --project ../.. python ../../src/bot.py --variant v1.1"
+run_command_linux = "uv run --project ../.. python ../../src/bot.py --variant v1.1"
+loadout_file = "ripple-v1.1.loadout.toml"
+logo_file = "ripple-v1.1.png"
+hivemind = true
+
+[details]
+developer = "Rolv"
+description = """
+Ripple v1.1 is a machine learning bot that combines behavioral cloning from 37 000 hours of SSL and RLCS
+replays, and over 170 in-game years (180B steps) of reinforcement learning against itself to become better.
+"""
+fun_fact = "Ripple has an added reaction time to match humans."
+source_link = "https://github.com/Rolv-Arild/Ripple-RLBot"
+language = "rlgym"
+tags = ["1v1", "teamplay"]
